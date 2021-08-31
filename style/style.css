@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #EBEBEB;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+.header-nav {
+    background-color: #322E41;
+    width: 100%;
+    
+}
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 65px;
+    align-items: center;
+
+}
+.header-list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.header-link {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 23px 14px;
+    transition: 500ms;
+}
+.header-link:hover {
+    color: #D47300;
+    background-color: #FFFFFF;
+}
+.header-content {
+    background: url(../images/background.jpg) no-repeat center /cover;
+    flex-grow: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.header{
+    height: 565px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-title {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+.header-desc {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+.header-desc span {
+    font-weight: 700;
+}
+.main{
+    margin-top: -37px;
+    margin-bottom: 30px;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+.section-first {
+    max-width: 540px;
+    width: 100%;
+    padding: 15px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+.section-first h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2C2A2A;
+    margin: 20px 0 10px 0;
+
+}
+.section-first p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9B9B9B;
+}
+.section-second {
+    max-width: 540px;
+    width: 100%;
+    height: 467px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.section-mini {
+    max-width: 255px;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-mini h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 16px;
+    color: #2C2A2A;
+    padding: 15px 0 10px 0;
+}
+.section-mini p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9B9B9B;
+}
+.footer {
+    background: #322E41;
+}
+.footer-content {
+    height: 260px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+form {
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+
+}
+input {
+    max-width: 350px;
+    width: 100%;
+    height: 34px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 8px 0 8px 8px;
+    color: #9B9B9B;
+}
+textarea {
+    max-width: 350px;
+    width: 100%;
+    height: 86px;
+    background: #FFFFFF;
+    margin: 10px 0;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 8px 0 60px 8px;
+    color: #9B9B9B;
+}
+button {
+    max-width: 350px;
+    width: 100%;
+    height: 25px;
+    background: #544294;
+    color: #FFFFFF;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    
+}
+.big{
+    max-width: 237px;
+    width: 100%;
+    height: 106px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    transition: .5s;
+    color: #FFFFFF;
+    
+}
+.footer-link:hover {
+   color: #D47300;
+}
+.footer-list {
+    max-width: 81px;
+    height: 109px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-list2 {
+    max-width: 93px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.poinit {
+    margin: 10px;
+}
